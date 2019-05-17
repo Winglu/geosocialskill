@@ -7,15 +7,11 @@
 
 
 #include "IntGraph.h"
+#include <iostream>
 
-
-class GraphAlgorithm {
-
-
-public:
-
-    void coreDecompostion(IntGraph &);
-};
+namespace GraphAlgorithm{
+    void coreDecomposition(IntGraph &g);
+}
 
 
 #endif //GEOSOCIALSKILL_GRAPHALGORITHM_H
